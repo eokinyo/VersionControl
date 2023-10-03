@@ -29,6 +29,11 @@ public class LuckyGame {
                     System.out.println("You won 3€!");
                 }
             } 
+            //If none of the numbers is 7, the player loses 1€ as below
+            else {
+                playerMoney -= 1;
+                System.out.println("You lost 1€.");
+            }
 
 	}
 
