@@ -14,6 +14,9 @@ public class LuckyGame {
             int num3 = random.nextInt(10) + 1;
             
             System.out.println("Random numbers: " + num1 + ", " + num2 + " and " + num3);
+            
+         // Check if one of the numbers is 7
+            if (num1 == 7 || num2 == 7 || num3 == 7)
 
 	}
 
