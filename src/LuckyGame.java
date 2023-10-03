@@ -37,6 +37,8 @@ public class LuckyGame {
             
             System.out.println("Current balance: " + playerMoney + "€\n");
         }
+        
+        System.out.println("Game Over! You ran out of money."); //If the player runs out of money, then it is game over!
 
 	}
 
