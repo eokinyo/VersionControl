@@ -16,7 +16,19 @@ public class LuckyGame {
             System.out.println("Random numbers: " + num1 + ", " + num2 + " and " + num3);
             
          // Check if one of the numbers is 7
-            if (num1 == 7 || num2 == 7 || num3 == 7)
+            if (num1 == 7 || num2 == 7 || num3 == 7){
+                // Step 2: Update player's money based on the winning formula
+                if (num1 == 7 && num2 == 7 && num3 == 7) {
+                    playerMoney += 10;
+                    System.out.println("You won 10€!");
+                } else if (num1 == 7 && num2 == 7 || num1 == 7 && num3 == 7 || num2 == 7 && num3 == 7) {
+                    playerMoney += 5;
+                    System.out.println("You won 5€!");
+                } else {
+                    playerMoney += 3;
+                    System.out.println("You won 3€!");
+                }
+            } 
 
 	}
 
