@@ -34,6 +34,9 @@ public class LuckyGame {
                 playerMoney -= 1;
                 System.out.println("You lost 1€.");
             }
+            
+            System.out.println("Current balance: " + playerMoney + "€\n");
+        }
 
 	}
 
